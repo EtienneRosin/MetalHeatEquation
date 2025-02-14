@@ -1,6 +1,6 @@
 CMakeFiles/MetalHeat3D.dir/main.cpp.o: \
-  /Users/etienne/Documents/Developer/MetalHeat3D/main.cpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/utils/parameters.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/main.cpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/utils/parameters.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -979,17 +979,17 @@ CMakeFiles/MetalHeat3D.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/core/solution.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/solution.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_static_assert.h \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/Metal.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLAccelerationStructure.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLDefines.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/../Foundation/NSDefines.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLHeaderBridge.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLPrivate.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/Metal.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLAccelerationStructure.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLDefines.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/../Foundation/NSDefines.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLHeaderBridge.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLPrivate.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/objc/runtime.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/objc/objc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/objc/objc-api.h \
@@ -998,12 +998,12 @@ CMakeFiles/MetalHeat3D.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/dlfcn.h \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/Foundation.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSArray.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSObject.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSDefines.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSPrivate.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSTypes.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/Foundation.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSArray.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSObject.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSDefines.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSPrivate.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSTypes.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/float.h \
@@ -1115,25 +1115,25 @@ CMakeFiles/MetalHeat3D.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLParser.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/objc/message.h \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSEnumerator.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSAutoreleasePool.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSBundle.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSNotification.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSDictionary.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSString.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSObjCRuntime.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSRange.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSData.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSDate.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSError.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSLock.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSNumber.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSProcessInfo.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSSet.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSSharedPtr.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Foundation/NSURL.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLAccelerationStructureTypes.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLResource.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSEnumerator.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSAutoreleasePool.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSBundle.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSNotification.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSDictionary.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSString.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSObjCRuntime.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSRange.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSData.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSDate.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSError.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSLock.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSNumber.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSProcessInfo.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSSet.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSSharedPtr.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Foundation/NSURL.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLAccelerationStructureTypes.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLResource.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/mach.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/std_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/vm_types.h \
@@ -1210,14 +1210,14 @@ CMakeFiles/MetalHeat3D.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/arm/rpc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/mach_error.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/error.h \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLAllocation.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLStageInputOutputDescriptor.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/../Foundation/NSRange.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLTypes.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLAccelerationStructureCommandEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLArgument.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLTexture.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLPixelFormat.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLAllocation.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLStageInputOutputDescriptor.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/../Foundation/NSRange.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLTypes.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLAccelerationStructureCommandEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLArgument.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLTexture.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLPixelFormat.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceRef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/xpc/xpc.h \
@@ -1239,60 +1239,60 @@ CMakeFiles/MetalHeat3D.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/xpc/listener.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/launch.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceTypes.h \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLCommandEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLArgumentEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLBinaryArchive.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLBlitCommandEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLBlitPass.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLBuffer.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLCaptureManager.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLCaptureScope.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/../Foundation/NSObject.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/../Foundation/NSString.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLCommandBuffer.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLCommandQueue.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLComputeCommandEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLComputePass.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLComputePipeline.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLPipeline.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLCounters.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLDepthStencil.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLDevice.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLDrawable.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLDynamicLibrary.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLEvent.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLFence.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLFunctionConstantValues.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLFunctionDescriptor.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLFunctionHandle.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLLibrary.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLFunctionLog.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLFunctionStitching.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLHeap.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLIndirectCommandBuffer.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLIndirectCommandEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLRenderCommandEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLRenderPass.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLIntersectionFunctionTable.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLIOCommandBuffer.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLIOCommandQueue.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLIOCompressor.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLLinkedFunctions.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLLogState.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLParallelRenderCommandEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLRasterizationRate.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLRenderPipeline.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLResidencySet.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLResourceStateCommandEncoder.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLResourceStatePass.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLSampler.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLVertexDescriptor.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLVisibleFunctionTable.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/Metal/MTLVersion.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/config/force.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/config/initial_condition.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/core/heat_equation.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/utils/timer.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLCommandEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLArgumentEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLBinaryArchive.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLBlitCommandEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLBlitPass.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLBuffer.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLCaptureManager.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLCaptureScope.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/../Foundation/NSObject.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/../Foundation/NSString.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLCommandBuffer.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLCommandQueue.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLComputeCommandEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLComputePass.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLComputePipeline.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLPipeline.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLCounters.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLDepthStencil.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLDevice.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLDrawable.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLDynamicLibrary.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLEvent.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLFence.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLFunctionConstantValues.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLFunctionDescriptor.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLFunctionHandle.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLLibrary.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLFunctionLog.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLFunctionStitching.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLHeap.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLIndirectCommandBuffer.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLIndirectCommandEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLRenderCommandEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLRenderPass.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLIntersectionFunctionTable.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLIOCommandBuffer.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLIOCommandQueue.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLIOCompressor.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLLinkedFunctions.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLLogState.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLParallelRenderCommandEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLRasterizationRate.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLRenderPipeline.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLResidencySet.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLResourceStateCommandEncoder.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLResourceStatePass.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLSampler.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLVertexDescriptor.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLVisibleFunctionTable.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/Metal/MTLVersion.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/config/force.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/config/initial_condition.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/heat_equation.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/utils/timer.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/calendar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h \
@@ -1320,19 +1320,19 @@ CMakeFiles/MetalHeat3D.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/core/metal_heat_equation.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/core/force_parser.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/core/function_parser.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/metal_heat_equation.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/force_parser.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/function_parser.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/regex \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/utils/metal_device_info.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/QuartzCore.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/CAMetalDrawable.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/../Metal/MTLDrawable.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/../Metal/MTLTexture.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/CADefines.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/../Foundation/NSDefines.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/CAPrivate.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/CAMetalLayer.hpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/metal-cpp/QuartzCore/../Metal/MTLPixelFormat.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/utils/metal_device_info.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/QuartzCore.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/CAMetalDrawable.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/../Metal/MTLDrawable.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/../Metal/MTLTexture.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/CADefines.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/../Foundation/NSDefines.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/CAPrivate.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/CAMetalLayer.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/metal-cpp/QuartzCore/../Metal/MTLPixelFormat.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h

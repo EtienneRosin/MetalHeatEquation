@@ -1,6 +1,6 @@
 src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o: \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/core/shader_loader.cpp \
-  /Users/etienne/Documents/Developer/MetalHeat3D/src/core/shader_loader.hpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/shader_loader.cpp \
+  /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/shader_loader.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/comp.h \

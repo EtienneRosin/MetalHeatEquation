@@ -1,4 +1,4 @@
-# Install script for directory: /Users/etienne/Documents/Developer/MetalHeat3D/src/core
+# Install script for directory: /Users/etienne/Documents/Developer/MetalHeatEquation/src/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

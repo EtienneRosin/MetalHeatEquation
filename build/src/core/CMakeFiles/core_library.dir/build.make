@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/etienne/Documents/Developer/MetalHeat3D
+CMAKE_SOURCE_DIR = /Users/etienne/Documents/Developer/MetalHeatEquation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/etienne/Documents/Developer/MetalHeat3D/build
+CMAKE_BINARY_DIR = /Users/etienne/Documents/Developer/MetalHeatEquation/build
 
 # Include any dependencies generated for this target.
 include src/core/CMakeFiles/core_library.dir/depend.make
@@ -70,74 +70,74 @@ include src/core/CMakeFiles/core_library.dir/progress.make
 include src/core/CMakeFiles/core_library.dir/flags.make
 
 src/core/CMakeFiles/core_library.dir/solution.cpp.o: src/core/CMakeFiles/core_library.dir/flags.make
-src/core/CMakeFiles/core_library.dir/solution.cpp.o: /Users/etienne/Documents/Developer/MetalHeat3D/src/core/solution.cpp
+src/core/CMakeFiles/core_library.dir/solution.cpp.o: /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/solution.cpp
 src/core/CMakeFiles/core_library.dir/solution.cpp.o: src/core/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeat3D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/core/CMakeFiles/core_library.dir/solution.cpp.o"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/solution.cpp.o -MF CMakeFiles/core_library.dir/solution.cpp.o.d -o CMakeFiles/core_library.dir/solution.cpp.o -c /Users/etienne/Documents/Developer/MetalHeat3D/src/core/solution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeatEquation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/core/CMakeFiles/core_library.dir/solution.cpp.o"
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/solution.cpp.o -MF CMakeFiles/core_library.dir/solution.cpp.o.d -o CMakeFiles/core_library.dir/solution.cpp.o -c /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/solution.cpp
 
 src/core/CMakeFiles/core_library.dir/solution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/solution.cpp.i"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeat3D/src/core/solution.cpp > CMakeFiles/core_library.dir/solution.cpp.i
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/solution.cpp > CMakeFiles/core_library.dir/solution.cpp.i
 
 src/core/CMakeFiles/core_library.dir/solution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/solution.cpp.s"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeat3D/src/core/solution.cpp -o CMakeFiles/core_library.dir/solution.cpp.s
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/solution.cpp -o CMakeFiles/core_library.dir/solution.cpp.s
 
 src/core/CMakeFiles/core_library.dir/heat_equation.cpp.o: src/core/CMakeFiles/core_library.dir/flags.make
-src/core/CMakeFiles/core_library.dir/heat_equation.cpp.o: /Users/etienne/Documents/Developer/MetalHeat3D/src/core/heat_equation.cpp
+src/core/CMakeFiles/core_library.dir/heat_equation.cpp.o: /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/heat_equation.cpp
 src/core/CMakeFiles/core_library.dir/heat_equation.cpp.o: src/core/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeat3D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/core/CMakeFiles/core_library.dir/heat_equation.cpp.o"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/heat_equation.cpp.o -MF CMakeFiles/core_library.dir/heat_equation.cpp.o.d -o CMakeFiles/core_library.dir/heat_equation.cpp.o -c /Users/etienne/Documents/Developer/MetalHeat3D/src/core/heat_equation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeatEquation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/core/CMakeFiles/core_library.dir/heat_equation.cpp.o"
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/heat_equation.cpp.o -MF CMakeFiles/core_library.dir/heat_equation.cpp.o.d -o CMakeFiles/core_library.dir/heat_equation.cpp.o -c /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/heat_equation.cpp
 
 src/core/CMakeFiles/core_library.dir/heat_equation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/heat_equation.cpp.i"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeat3D/src/core/heat_equation.cpp > CMakeFiles/core_library.dir/heat_equation.cpp.i
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/heat_equation.cpp > CMakeFiles/core_library.dir/heat_equation.cpp.i
 
 src/core/CMakeFiles/core_library.dir/heat_equation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/heat_equation.cpp.s"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeat3D/src/core/heat_equation.cpp -o CMakeFiles/core_library.dir/heat_equation.cpp.s
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/heat_equation.cpp -o CMakeFiles/core_library.dir/heat_equation.cpp.s
 
 src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.o: src/core/CMakeFiles/core_library.dir/flags.make
-src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.o: /Users/etienne/Documents/Developer/MetalHeat3D/src/core/metal_heat_equation.cpp
+src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.o: /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/metal_heat_equation.cpp
 src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.o: src/core/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeat3D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.o"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.o -MF CMakeFiles/core_library.dir/metal_heat_equation.cpp.o.d -o CMakeFiles/core_library.dir/metal_heat_equation.cpp.o -c /Users/etienne/Documents/Developer/MetalHeat3D/src/core/metal_heat_equation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeatEquation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.o"
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.o -MF CMakeFiles/core_library.dir/metal_heat_equation.cpp.o.d -o CMakeFiles/core_library.dir/metal_heat_equation.cpp.o -c /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/metal_heat_equation.cpp
 
 src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/metal_heat_equation.cpp.i"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeat3D/src/core/metal_heat_equation.cpp > CMakeFiles/core_library.dir/metal_heat_equation.cpp.i
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/metal_heat_equation.cpp > CMakeFiles/core_library.dir/metal_heat_equation.cpp.i
 
 src/core/CMakeFiles/core_library.dir/metal_heat_equation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/metal_heat_equation.cpp.s"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeat3D/src/core/metal_heat_equation.cpp -o CMakeFiles/core_library.dir/metal_heat_equation.cpp.s
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/metal_heat_equation.cpp -o CMakeFiles/core_library.dir/metal_heat_equation.cpp.s
 
 src/core/CMakeFiles/core_library.dir/force_parser.cpp.o: src/core/CMakeFiles/core_library.dir/flags.make
-src/core/CMakeFiles/core_library.dir/force_parser.cpp.o: /Users/etienne/Documents/Developer/MetalHeat3D/src/core/force_parser.cpp
+src/core/CMakeFiles/core_library.dir/force_parser.cpp.o: /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/force_parser.cpp
 src/core/CMakeFiles/core_library.dir/force_parser.cpp.o: src/core/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeat3D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/core/CMakeFiles/core_library.dir/force_parser.cpp.o"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/force_parser.cpp.o -MF CMakeFiles/core_library.dir/force_parser.cpp.o.d -o CMakeFiles/core_library.dir/force_parser.cpp.o -c /Users/etienne/Documents/Developer/MetalHeat3D/src/core/force_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeatEquation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/core/CMakeFiles/core_library.dir/force_parser.cpp.o"
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/force_parser.cpp.o -MF CMakeFiles/core_library.dir/force_parser.cpp.o.d -o CMakeFiles/core_library.dir/force_parser.cpp.o -c /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/force_parser.cpp
 
 src/core/CMakeFiles/core_library.dir/force_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/force_parser.cpp.i"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeat3D/src/core/force_parser.cpp > CMakeFiles/core_library.dir/force_parser.cpp.i
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/force_parser.cpp > CMakeFiles/core_library.dir/force_parser.cpp.i
 
 src/core/CMakeFiles/core_library.dir/force_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/force_parser.cpp.s"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeat3D/src/core/force_parser.cpp -o CMakeFiles/core_library.dir/force_parser.cpp.s
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/force_parser.cpp -o CMakeFiles/core_library.dir/force_parser.cpp.s
 
 src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o: src/core/CMakeFiles/core_library.dir/flags.make
-src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o: /Users/etienne/Documents/Developer/MetalHeat3D/src/core/shader_loader.cpp
+src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o: /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/shader_loader.cpp
 src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o: src/core/CMakeFiles/core_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeat3D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o -MF CMakeFiles/core_library.dir/shader_loader.cpp.o.d -o CMakeFiles/core_library.dir/shader_loader.cpp.o -c /Users/etienne/Documents/Developer/MetalHeat3D/src/core/shader_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/etienne/Documents/Developer/MetalHeatEquation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o"
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o -MF CMakeFiles/core_library.dir/shader_loader.cpp.o.d -o CMakeFiles/core_library.dir/shader_loader.cpp.o -c /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/shader_loader.cpp
 
 src/core/CMakeFiles/core_library.dir/shader_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_library.dir/shader_loader.cpp.i"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeat3D/src/core/shader_loader.cpp > CMakeFiles/core_library.dir/shader_loader.cpp.i
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/shader_loader.cpp > CMakeFiles/core_library.dir/shader_loader.cpp.i
 
 src/core/CMakeFiles/core_library.dir/shader_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_library.dir/shader_loader.cpp.s"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeat3D/src/core/shader_loader.cpp -o CMakeFiles/core_library.dir/shader_loader.cpp.s
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etienne/Documents/Developer/MetalHeatEquation/src/core/shader_loader.cpp -o CMakeFiles/core_library.dir/shader_loader.cpp.s
 
 # Object files for target core_library
 core_library_OBJECTS = \
@@ -157,19 +157,19 @@ src/core/libcore_library.a: src/core/CMakeFiles/core_library.dir/force_parser.cp
 src/core/libcore_library.a: src/core/CMakeFiles/core_library.dir/shader_loader.cpp.o
 src/core/libcore_library.a: src/core/CMakeFiles/core_library.dir/build.make
 src/core/libcore_library.a: src/core/CMakeFiles/core_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/etienne/Documents/Developer/MetalHeat3D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcore_library.a"
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && $(CMAKE_COMMAND) -P CMakeFiles/core_library.dir/cmake_clean_target.cmake
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core_library.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/etienne/Documents/Developer/MetalHeatEquation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcore_library.a"
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && $(CMAKE_COMMAND) -P CMakeFiles/core_library.dir/cmake_clean_target.cmake
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/core/CMakeFiles/core_library.dir/build: src/core/libcore_library.a
 .PHONY : src/core/CMakeFiles/core_library.dir/build
 
 src/core/CMakeFiles/core_library.dir/clean:
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core && $(CMAKE_COMMAND) -P CMakeFiles/core_library.dir/cmake_clean.cmake
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core && $(CMAKE_COMMAND) -P CMakeFiles/core_library.dir/cmake_clean.cmake
 .PHONY : src/core/CMakeFiles/core_library.dir/clean
 
 src/core/CMakeFiles/core_library.dir/depend:
-	cd /Users/etienne/Documents/Developer/MetalHeat3D/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/etienne/Documents/Developer/MetalHeat3D /Users/etienne/Documents/Developer/MetalHeat3D/src/core /Users/etienne/Documents/Developer/MetalHeat3D/build /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core /Users/etienne/Documents/Developer/MetalHeat3D/build/src/core/CMakeFiles/core_library.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/etienne/Documents/Developer/MetalHeatEquation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/etienne/Documents/Developer/MetalHeatEquation /Users/etienne/Documents/Developer/MetalHeatEquation/src/core /Users/etienne/Documents/Developer/MetalHeatEquation/build /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core /Users/etienne/Documents/Developer/MetalHeatEquation/build/src/core/CMakeFiles/core_library.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/core/CMakeFiles/core_library.dir/depend
 
