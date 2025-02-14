@@ -1,0 +1,6 @@
+nx=201
+ny=201
+nz=201
+max_iterations=10
+dt=0.0000003
+output_frequency=1

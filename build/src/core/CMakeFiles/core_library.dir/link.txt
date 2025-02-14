@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcore_library.a CMakeFiles/core_library.dir/solution.cpp.o CMakeFiles/core_library.dir/heat_equation.cpp.o CMakeFiles/core_library.dir/metal_heat_equation.cpp.o CMakeFiles/core_library.dir/force_parser.cpp.o CMakeFiles/core_library.dir/shader_loader.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcore_library.a
